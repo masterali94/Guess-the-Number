@@ -1,0 +1,16 @@
+import random
+
+print("Welome to the guessing game!")
+
+
+while True :
+
+    number = random.randint(0,20)
+    guessednumber = int(input ("please enter a guessed number \n"))
+
+    if (guessednumber != number ):
+     print("sorry the number was not same number i was guessing")
+
+    elif (guessednumber == number ):
+     print ("yes thats the number i was guessing")
+     break
